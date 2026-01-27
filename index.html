@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sapphire-Dental</title>
+  <!-- favicon  -->
+  <link rel="shortcut icon" href="assets/images/Index/FV.webp" type="image/x-icon" />
+  <!-- faremwork of css -->
+  <link rel="stylesheet" href="assets/css/bootstrap-lib/bootstrap.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- style sheet of css -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- Responsive sheet of CSS -->
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <!-- fonts awsome icon link  -->
+  <link rel="stylesheet" href="assets/font-awesome-lib/icon/all.min.css" />
+  <!-- swiper-slider link CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- animation of CSS -->
+  <link rel="stylesheet" href="assets/css/aos.css" />
+</head>
+
+<body>
+  <div class="site-wrapper">
+    <!-- 1.0 Header Section Start -->
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-md">
+          <div class="d-flex justify-content-between align-items-center w-100">
+            <!-- site logo -->
+            <div>
+              <a class="nav-logo" href="index.html" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
+                <figure>
+                  <img src="assets/images/index/logo.png" alt="logo" />
+                </figure>
+              </a>
+            </div>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="d-flex justify-content-center align-items-center gap-4">
+                <li>
+                  <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Appointment</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Facility</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">About</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <a href="#" class="d-none d-md-flex hover1">
+                <p> <i class="fa-solid fa-phone"></i> (+92) 42 3574 4859</p>
+              </a>
+            </div>
+            <div class="d-flex align-items-center gap-0 gap-sm-1">
+              <a href="#" class="icon-link d-block d-md-none" aria-label="Aside Navigation">
+                <i class="fa-solid fa-bars open-aside" onclick="open_aside()"></i>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!--===== aside navigation slidebar =====-->
+      <aside>
+        <div id="mySidenav" class="right-sidbar">
+          <div class="side-nav-logo d-flex justify-content-between align-items-center ps-2 pe-1 nav-logo">
+            <figure class="navbar-brand">
+              <a href="index.html"><img src="assets/images/index/logo.png" alt="logo"></a>
+            </figure>
+            <button class="fa-solid fa-xmark" onclick="close_aside()" aria-label="Toggle Button"></button>
+          </div>
+          <ul>
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Appointment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Facility</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">About</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </header>
+    <!-- 1.0 Header Section End -->
+    <!-- 1.1 Hero Section  -->
+    <section class="Hero-Section">
+      <div class="container">
+        <div class="row">
+          <div class="d-flex flex-column align-items-center justify-content-center col-12 col-md-5" data-aos="zoom-in"
+            data-aos-delay="200" data-aos-duration="1000">
+            <div class="d-flex align-items-start align-items-lg-start">
+              <h1>Check Your Dental Health Today</h1>
+            </div>
+            <div class="d-flex flex-column gap-4 w-100">
+              <div class="">
+                <p>Let's check how your dental health is by our professionals with complete and modern facilities
+                  services only at our clinic</p>
+              </div>
+              <div class="d-flex align-items-center align-items-lg-center flex-wrap">
+                <a href="#" class="hover1 text-center">Get Started</a>
+                <a href="#" class="hover2">An Appointment <i class="fa-solid fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7 col-12 position-relative" data-aos="zoom-in" data-aos-delay="200"
+            data-aos-duration="1000">
+            <figure class="d-flex position-absolute">
+              <img src="assets/images/Index/Hero-Image.webp" alt="Hero-Image">
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex align-items-end d-none d-md-flex">
+      </div>
+    </section>
+    <!-- 1.1 Hero Section End -->
+    <!-- 1.2 Services-Section -->
+    <section class="Service-Section">
+      <div class="container">
+        <div class="row">
+          <div class="d-flex flex-column mb-0">
+            <div class="d-flex  align-items-center justify-content-between flex-md-row flex-sm-column"
+              data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000">
+              <div class="d-flex align-items-sm-center justify-content-start">
+                <h2>The Best Quality Service You Can Get</h2>
+              </div>
+              <div class="d-flex flex-column mt-0">
+                <div class="d-flex flex-column gap-2">
+                  <div class="d-flex justify-content-lg-start align-items-center">
+                    <h4> <span class="dot"></span>Clinic Services</h4>
+                  </div>
+                  <hr>
+                </div>
+                <div class="d-flex align-items-center justify-content-md-start">
+                  <p>To maintain dental health we provide a range of services for our patients</p>
+                </div>
+              </div>
+            </div>
+            <div class="row gy-5">
+              <div class=" col-lg-4 col-md-6 col-12">
+                <div class="d-flex justify-content-start align-items-center align-items-lg-center" data-aos="zoom-in"
+                  data-aos-delay="200" data-aos-duration="1000">
+                  <div class="d-flex flex-column ">
+                    <div class="d-flex gap-3">
+                      <figure><img src="assets/images/Index/Denture-Care.png" alt="Denture-Care Service"></figure>
+                      <div>
+                        <h4>Denture Care</h4>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-md-center">
+                      <p>Dentures must be cared for so that bacteria and plaque do not accumulate and cause oral health
+                        problems</p>
+                    </div>
+                    <div><a href="#" class="hover3 d-flex">Know This More <i
+                          class="fa-solid fa-angle-right ms-3"></i></a></div>
+                  </div>
+                </div>
+              </div>
+              <div class=" col-lg-4 col-md-6 col-12">
+                <div class="d-flex justify-content-start align-items-center align-items-lg-center" data-aos="zoom-in"
+                  data-aos-delay="250" data-aos-duration="1100">
+                  <div class="d-flex flex-column ">
+                    <div class="d-flex gap-3">
+                      <figure><img src="assets/images/Index/dental-Implement.png" alt="Dental-Implant Service"></figure>
+                      <div>
+                        <h4>Dental Implant</h4>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-md-center">
+                      <p>Artificial tooth roots shaped like bolts that are implanted in the patient's jaw to replace the
+                        missing tooth roots</p>
+                    </div>
+                    <div><a href="#" class="hover3 d-flex">Know This More <i
+                          class="fa-solid fa-angle-right ms-3"></i></a></div>
+                  </div>
+                </div>
+              </div>
+              <div class=" col-lg-4 col-md-6 col-12">
+                <div class="d-flex justify-content-start align-items-center align-items-lg-center" data-aos="zoom-in"
+                  data-aos-delay="300" data-aos-duration="1200">
+                  <div class="d-flex flex-column ">
+                    <div class="d-flex gap-3">
+                      <figure><img src="assets/images/Index/general-destiny.png" alt="General Dentistry Service">
+                      </figure>
+                      <div>
+                        <h4>General Dentistry</h4>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-md-center">
+                      <p>The role of the general dentist is very important to ensure safe and effective dental and oral
+                        care</p>
+                    </div>
+                    <div><a href="#" class="hover3 d-flex">Know This More <i
+                          class="fa-solid fa-angle-right ms-3"></i></a></div>
+                  </div>
+                </div>
+              </div>
+              <div class=" col-lg-4 col-md-6 col-12">
+                <div class="d-flex justify-content-start align-items-center align-items-lg-center" data-aos="zoom-in"
+                  data-aos-delay="300" data-aos-duration="1300">
+                  <div class="d-flex flex-column ">
+                    <div class="d-flex gap-3">
+                      <figure><img src="assets/images/Index/cosmetic-braces.png" alt="Cosmetic Braces Service"></figure>
+                      <div>
+                        <h4>Cosmetic Braces</h4>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-md-center">
+                      <p>Isn't just a toothbrush enough? Of course not, even braces users really need dental floss to
+                        keep</p>
+                    </div>
+                    <div><a href="#" class="hover3 d-flex">Know This More <i
+                          class="fa-solid fa-angle-right ms-3"></i></a></div>
+                  </div>
+                </div>
+              </div>
+              <div class=" col-lg-4 col-md-6 col-12">
+                <div class="d-flex justify-content-start align-items-center align-items-lg-center" data-aos="zoom-in"
+                  data-aos-delay="200" data-aos-duration="1400">
+                  <div class="d-flex flex-column ">
+                    <div class="d-flex gap-3">
+                      <figure><img src="assets/images/Index/Extraxctions.png" alt="Extractions Service"></figure>
+                      <div>
+                        <h4>Extractions</h4>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-md-center">
+                      <p>Teeth that are severely damaged by decay or injury and can no longer be repaired through
+                        corrective action</p>
+                    </div>
+                    <div><a href="#" class="hover3 d-flex">Know This More <i
+                          class="fa-solid fa-angle-right ms-3"></i></a></div>
+                  </div>
+                </div>
+              </div>
+              <div class=" col-lg-4 col-md-6 col-12">
+                <div class="d-flex justify-content-start align-items-center align-items-lg-center" data-aos="zoom-in"
+                  data-aos-delay="200" data-aos-duration="1500">
+                  <div class="d-flex flex-column ">
+                    <div class="d-flex gap-3">
+                      <figure><img src="assets/images/Index/Restorative-Destiny.png"
+                          alt="Restorative Dentistry Service"></figure>
+                      <div>
+                        <h4>Restorative Dentistry</h4>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-md-center">
+                      <p>The result of dental procedures that aim to restore the shape, function, and appearance of the
+                        teeth</p>
+                    </div>
+                    <div><a href="#" class="hover3 d-flex">Know This More <i
+                          class="fa-solid fa-angle-right ms-3"></i></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 1.2 Services-Section End -->
+    <!-- 1.3 Care-Teeth Section -->
+    <section class="Care-Teeth">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 order-2 order-md-1 order-sm-2" data-aos="zoom-in" data-aos-delay="200"
+            data-aos-duration="1000">
+            <div class="d-flex position-relative">
+              <figure class="position-absolute mb-0">
+                <img src="assets/images/Index/Care-Teeth.webp" alt="Care-Teeth">
+              </figure>
+            </div>
+          </div>
+          <div class="col-md-6 order-1 order-md-2 order-sm-1">
+            <div class="d-flex flex-column justify-content-lg-center" data-aos="zoom-in" data-aos-delay="200"
+              data-aos-duration="1000">
+              <div class="d-flex flex-column gap-2">
+                <div class="d-flex justify-content-lg-start align-items-start">
+                  <h4> <span class="dot"></span>Take Care Teeth</h4>
+                </div>
+                <hr>
+              </div>
+              <div class="d-flex flex-column align-items-lg-start">
+                <div>
+                  <h2>Let's Take Care Of Dental Health</h2>
+                </div>
+                <div class="align-items-md-center">
+                  <p>Some people think that brushing your teeth twice a day is enough to keep your teeth and mouth
+                    healthy. In fact, that's not the case</p>
+                </div>
+                <div class="d-flex gap-lg-3 align-items-center">
+                  <a href="#" class="hover4 text-center">Let's Starting</a>
+                  <a href="#" class="hover2">Read More <i class="fa-solid fa-angle-right"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 1.3 Care-Teeth Section End -->
+    <!-- 1.4 Features-Section Start -->
+    <section class="Features-Section">
+      <div class="container">
+        <div class="d-flex flex-column justify-content-lg-start">
+          <div class="row align-items-center" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1600">
+            <div class="col-lg-6">
+              <h2 class="d-flex">
+                Enjoy The Features <br />
+                In Our Clinic
+              </h2>
+            </div>
+            <div class="col-lg-5">
+              <div class="d-flex flex-column">
+                <div class="d-flex align-items-center">
+                  <span class="dot rounded-circle me-2"></span>
+                  <h4>Clinic Features</h4>
+                </div>
+                <hr />
+                <p>
+                  You can enjoy services at our clinic with several features
+                  that make it easier for you.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1500">
+            <div class="d-flex justify-content-center align-items-center justify-content-md-start">
+              <div class="col-md-3 col-12">
+                <div class="d-flex flex-column align-items-lg-start  justify-content-center">
+                  <figure>
+                    <img src="assets/images/Index/Online-System.png" alt="Online System">
+                  </figure>
+                  <div class="d-flex flex-column align-items-md-start align-items-sm-center">
+                    <h4>Online System</h4>
+                    <div class="d-flex align-items-lg-center">
+                      <p>Our clinic already has a online ecosystem</p>
+                    </div>
+                  </div>
+                  <div><a href="#" class="hover2">More about this <i class="fa-solid fa-angle-right"></i></a></div>
+                </div>
+              </div>
+              <div class="col-md-3 col-12">
+                <div class="d-flex flex-column align-items-lg-start">
+                  <figure>
+                    <img src="assets/images/Index/24-Hours.png" alt="Online System">
+                  </figure>
+                  <div class="d-flex flex-column align-items-md-start">
+                    <h4>24 Hours Open</h4>
+                    <div class="align-items-lg-center">
+                      <p>Ready to receive patients
+                        24 hours a day</p>
+                    </div>
+                  </div>
+                  <div><a href="#" class="hover2">More about this <i class="fa-solid fa-angle-right"></i></a></div>
+                </div>
+              </div>
+              <div class="col-md-3 col-12">
+                <div class="d-flex flex-column align-items-lg-start">
+                  <figure>
+                    <img src="assets/images/Index/Easy-Access.png" alt="Online System">
+                  </figure>
+                  <div class="d-flex flex-column align-items-md-start">
+                    <h4>Easy Access</h4>
+                    <div class="align-items-lg-center">
+                      <p>Ease of payment with
+                        various platforms</p>
+                    </div>
+                  </div>
+                  <div><a href="#" class="hover2">More about this <i class="fa-solid fa-angle-right"></i></a></div>
+                </div>
+              </div>
+              <div class="col-md-3 col-12">
+                <div class="d-flex flex-column align-items-lg-start">
+                  <figure>
+                    <img src="assets/images/Index/More-Facilities.png" alt="Online System">
+                  </figure>
+                  <div class="d-flex flex-column align-items-md-start">
+                    <h4>More-Facilities</h4>
+                    <div class="align-items-lg-center">
+                      <p>All facilities are complete and new technology</p>
+                    </div>
+                  </div>
+                  <div><a href="#" class="hover2">More about this <i class="fa-solid fa-angle-right"></i></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 1.4 Features-Section End -->
+    <!-- 1.5 Videos-Section -->
+    <section class="Videos-Section">
+      <div class="container">
+        <div class="row align-items-center justify-content-between g-5">
+          <div class="col-md-6 position-relative overflow-hidden order-2 order-md-1">
+            <div id="videoSlider" class="d-flex flex-nowrap overflow-hidden">
+              <div class="flex-shrink-0 position-relative" data-aos="zoom-in" data-aos-delay="200"
+                data-aos-duration="1000">
+                <img src="assets/images/Index/Video-1.webp" class="img-fluid rounded-4 object-fit-cover" alt="Video 1">
+                <div class="position-absolute video-btn-container d-flex justify-content-center mb-3">
+                  <button type="button"
+                    class="btn btn-light rounded-pill d-flex align-items-center gap-2 shadow-sm px-4 py-2">
+                    <span class="d-flex justify-content-center align-items-center rounded-circle play-icon">
+                      <i class="bi bi-play-fill text-white fs-5"></i>
+                    </span>
+                    Watch The Video<i class="fa-solid fa-angle-right"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="flex-shrink-0 position-relative" data-aos="zoom-in" data-aos-delay="600"
+                data-aos-duration="1000">
+                <img src="assets/images/Index/Video-2.webp" class="img-fluid rounded-4 object-fit-cover" alt="Video 2">
+                <div class="position-absolute video-btn-container d-flex justify-content-center mb-3">
+                  <button type="button"
+                    class="btn btn-light rounded-pill d-flex align-items-center gap-2 shadow-sm px-4 py-2">
+                    <span class="d-flex justify-content-center align-items-center rounded-circle play-icon">
+                      <i class="bi bi-play-fill text-white fs-5"></i>
+                    </span>
+                    Watch The Video<i class="fa-solid fa-angle-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 order-1 order-md-2">
+            <div class="d-flex flex-column gap-3" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="1000">
+              <div class="d-flex flex-column gap-2">
+                <div class="d-flex align-items-center gap-2">
+                  <span class="rounded-circle feature-dot"></span>
+                  <h4 clas>Practice Videos</h4>
+                </div>
+                <hr class="opacity-100  m-0 feature-line">
+              </div>
+              <div>
+                <h2>See The Video Of Our Practice Process</h2>
+              </div>
+              <div class="d-flex align-items-start">
+                <p>
+                  We document several practice processes to allow our patients to see more clearly how we work so don't
+                  hesitate to try our services
+                </p>
+              </div>
+              <div class="d-flex align-items-center gap-3 flex-wrap">
+                <a href="#" class="hover4">Our Youtube</a>
+                <a href="#" class="hover2 d-flex align-items-center gap-1">
+                  See more video <i class="fa-solid fa-angle-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 1.5 Videos-Section End -->
+    <!-- 1.6 Care-Teeth Section -->
+    <section class="Care-Teeth">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 order-2 d-flex" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
+            <div class="d-flex position-relative image-container">
+              <figure class="position-absolute pt-0">
+                <img src="assets/images/Index/starting-Section.png" alt="Care-Teeth">
+              </figure>
+            </div>
+          </div>
+          <div class="col-md-7 order-1">
+            <div class="d-flex flex-column justify-content-lg-center" data-aos="zoom-in" data-aos-delay="200"
+              data-aos-duration="1000">
+              <div class="d-flex flex-column gap-2">
+                <div class="d-flex justify-content-lg-start align-items-start">
+                  <h4> <span class="dot"></span>Starting Now</h4>
+                </div>
+                <hr>
+              </div>
+              <div class="d-flex flex-column align-items-lg-start">
+                <div class="align-items-sm-start">
+                  <h2>Let's Start Taking Care Of Your Teeth</h2>
+                </div>
+                <div class="align-items-md-center">
+                  <p>Dental and gum health care needs to be done regularly for your health. It's not enough just to do
+                    treatment through a visit to the dentist</p>
+                </div>
+                <div class="d-flex gap-lg-3 align-items-center">
+                  <a href="#" class="hover4 text-center">Get's Started</a>
+                  <a href="#" class="hover2">Term's and Use<i class="fa-solid fa-angle-right"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 1.6 Care-Teeth Section End -->
+    <!-- 1.7 Reviews Section Start -->
+    <section class="Reviews-Section">
+      <div class="container">
+        <div class="d-flex flex-column gap-4">
+          <div class="d-flex align-items-start justify-content-between gap-3 flex-wrap" data-aos="zoom-in"
+            data-aos-delay="300" data-aos-duration="1000">
+            <div class="col-lg-6">
+              <h2>Our Services In The Eyes Of Our Patients</h2>
+            </div>
+            <div class="col-lg-5 d-flex flex-column">
+              <h4 class="d-flex align-items-center gap-2"><span class="dot rounded-circle"></span>Patient
+                Says</h4>
+              <hr>
+              <p class="text-muted m-0">Opinions from our patients who have experienced health services at our clinic
+              </p>
+            </div>
+          </div>
+          <div id="reviewsSlider" class="d-flex flex-nowrap overflow-hidden" data-aos="zoom-in" data-aos-delay="300"
+            data-aos-duration="1000">
+            <div class="flex-shrink-0">
+              <div class="card border-0">
+                <div class="card-body d-flex flex-column gap-3">
+                  <div class="d-flex align-items-center gap-3">
+                    <img src="assets/images/index/Ellipse.jpg" alt="reviewer" class="rounded-circle reviewer">
+                    <div class="d-flex flex-column gap-2">
+                      <h5>Edward Elric</h5>
+                      <h6>Freelance</h6>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="d-flex gap-1">
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+                  </div>
+                  <p>Making an appointment is very easy because it can be done online so it can
+                    save a lot of things and be done more clearly.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex-shrink-0">
+              <div class="card border-0">
+                <div class="card-body d-flex flex-column gap-3">
+                  <div class="d-flex align-items-center gap-3">
+                    <img src="assets/images/index/Customer2.png" alt="reviewer" class="rounded-circle reviewer">
+                    <div class="d-flex flex-column gap-2">
+                      <h5>William Smith</h5>
+                      <h6>Photographer</h6>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="d-flex gap-1">
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+                  </div>
+                  <p>The place at the clinic is very comfortable and the services provided are
+                    more optimal with the support of complete facilities.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex-shrink-0">
+              <div class="card border-0">
+                <div class="card-body d-flex flex-column gap-3">
+                  <div class="d-flex align-items-center gap-3">
+                    <img src="assets/images/index/customer2.png" alt="reviewer" class="rounded-circle reviewer">
+                    <div class="d-flex flex-column gap-2">
+                      <h5>Nikolas Nolan</h5>
+                      <h6>UI Designer</h6>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="d-flex gap-1">
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+                  </div>
+                  <p>Really helped me who was hit by mild covid and was required to self-isolate
+                    with online monitoring.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex-shrink-0">
+              <div class="card border-0">
+                <div class="card-body d-flex flex-column gap-3">
+                  <div class="d-flex align-items-center gap-3">
+                    <img src="assets/images/index/Customer2.png" alt="reviewer" class="rounded-circle reviewer">
+                    <div class="d-flex flex-column gap-2">
+                      <h5>Amir Khan</h5>
+                      <h6>Teacher</h6>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="d-flex gap-1">
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+                  </div>
+                  <p>Friendly staff and very professional service, I would recommend it to
+                    everyone.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex-shrink-0">
+              <div class="card border-0">
+                <div class="card-body d-flex flex-column gap-3">
+                  <div class="d-flex align-items-center gap-3">
+                    <img src="assets/images/index/Customer2.png" alt="reviewer" class="rounded-circle reviewer">
+                    <div class="d-flex flex-column gap-2">
+                      <h5>Rahim Khan</h5>
+                      <h6>Engineer</h6>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="d-flex gap-1">
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+                  </div>
+                  <p>Fast service and good communication during the process.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex-shrink-0">
+              <div class="card border-0">
+                <div class="card-body d-flex flex-column gap-3">
+                  <div class="d-flex align-items-center gap-3">
+                    <img src="assets/images/index/Customer2.png" alt="reviewer" class="rounded-circle reviewer">
+                    <div class="d-flex flex-column gap-2">
+                      <h5>Sara Ahmed</h5>
+                      <h6>Designer</h6>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center gap-2">
+                    <div class="d-flex gap-1">
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                      <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+                  </div>
+                  <p>Excellent experience, the doctor explained everything clearly.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- controls and progress below the cards -->
+          <div class="d-flex align-items-center justify-content-between gap-3 mt-3">
+            <div id="reviewsProgress" class="reviews-progress w-100">
+              <div id="reviewsProgressFill" class="reviews-progress-fill"></div>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+              <button id="reviewsPrev" class="btn rounded-circle"> <i class="bi bi-chevron-left"></i> </button>
+              <button id="reviewsNext" class="btn  rounded-circle"> <i class="bi bi-chevron-right"></i>
+              </button>
+            </div>
+            <div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 1.7 Reviews-Section End -->
+    <!-- 1.8 Footer-Section Start -->
+    <section class="Footer-Section">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-4 col-12">
+            <div class="d-flex flex-column gap-4">
+              <div>
+                <h3>Services</h3>
+              </div>
+              <div class="d-flex flex-column gap-4">
+                <a href="#">
+                  <h5>Cosmetic Braces</h5>
+                </a>
+                <a href="#">
+                  <h5>Dental Implant</h5>
+                </a>
+                <a href="#">
+                  <h5>General Dentistry</h5>
+                </a>
+                <a href="#">
+                  <h5>Restorative dentistry</h5>
+                </a>
+                <a href="#">
+                  <h5>Extractions</h5>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-12">
+            <div class="d-flex flex-column gap-4">
+              <div>
+                <h3>Information</h3>
+              </div>
+              <div class="d-flex flex-column gap-4">
+                <a href="#">
+                  <h5>An appointment</h5>
+                </a>
+                <a href="#">
+                  <h5>Sign Up</h5>
+                </a>
+                <a href="#">
+                  <h5>Join Community</h5>
+                </a>
+                <a href="#">
+                  <h5>Newsletter</h5>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-12">
+            <div class="d-flex flex-column gap-4">
+              <div>
+                <h3>Company</h3>
+              </div>
+              <div class="d-flex flex-column gap-4">
+                <a href="#">
+                  <h5>Patnership</h5>
+                </a>
+                <a href="#">
+                  <h5>Social Media</h5>
+                </a>
+                <a href="#">
+                  <h5>About Company</h5>
+                </a>
+                <a href="#">
+                  <h5>Clinic Maps</h5>
+                </a>
+                <a href="#">
+                  <h5>Contact</h5>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-12">
+            <div class="d-flex flex-column gap-4">
+              <div>
+                <h3>About Us</h3>
+              </div>
+              <div class="d-flex flex-column gap-4">
+                <div>
+                  <h5>Services that provide the best dentist health, we have been in the field for more than 10 years
+                    experience</h5>
+                </div>
+                <h5>(+92) 42 3574 4859</h5>
+                <h5>sapphiredental@company.com</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 1.8 Footer-Section End -->
+    <!-- 1.9 Footer -->
+    <footer>
+      <h5 class="text-center">© Sapphire Dental 2025 All Rights Reserved</h5>
+    </footer>
+    <!-- 1.9 Footer -->
+  </div>
+  <!-- bootstrap min javascript  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- j Query -->
+  <script src="assets/js/jquery.js"></script>
+  <!-- swiper slider js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="assets/js/swiper-lib/swiper-bundle.min.js"></script>
+  <!-- main javascript -->
+  <script src="assets/js/custom.js"></script>
+  <!-- animation from javascript -->
+  <script src="assets/js/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
